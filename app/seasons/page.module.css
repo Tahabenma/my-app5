@@ -1,0 +1,31 @@
+.image img{
+    max-width: 550px;
+    height: auto;
+    display: flex;
+    padding: 5%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.titre{
+    display: flex;
+    font-family: 'Gelasio', serif;
+    font-style: italic;
+    padding-left: 5%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.textt{
+padding: 3%;
+text-align: center;
+align-items: center;
+font-family: 'Gelasio', serif;
+font-style: italic;
+}

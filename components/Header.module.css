@@ -1,0 +1,36 @@
+.header {
+    background-color: gray;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    
+  }
+
+.header img {
+    width: 15rem;
+    height: auto;
+    float:left;
+
+  
+}
+ .menuItem {
+  display: flex;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: black;
+  }
+
+ .separator {
+text-align: center;
+align-items: center;
+ }
+ 
+ 
+ .menu{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-right: 5rem;
+ }
