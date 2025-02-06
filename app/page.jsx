@@ -9,40 +9,34 @@ import Link from 'next/link';
 
 
 export default function Accueil() {
-  return <main className={styles.main}>
+  return <main className={styles.mainn}>
+
     <div className={styles.mainn}>
-      
-      
-      
-     
-     <Image src={Scan} alt="lol" />
-     
-      
-       
+      <Image src={Scan} alt="lol" />
     </div>
 
     <div className={styles.text}>
-      "Taha Benmassoud transforms iconic fashion magazines into stunning digital masterpieces, 
-      offering unparalleled access to rare collections and timeless trends. 
+      "Taha Benmassoud transforms iconic fashion magazines into stunning digital masterpieces,
+      offering unparalleled access to rare collections and timeless trends.
       Elevate your style journey with elegance at your fingertips."
     </div>
-    
-   
+
+
     <Link href="/scans" className={styles.scanss}>
-    | O U R S C A N S |
-   
+      | O U R S C A N S |
+
     </Link>
-    
-    <div className={styles.taille}>
+    <div className={styles.cube}>
+      <div className={styles.tailles}>
         <Image src={iss} alt="Rick image 1" />
         <Image src={sex} alt="Rick image 2" />
         <Image src={ricky} alt="Rick image 3" />
       </div>
-
+    </div>
 
   </main>;
 }
-  
+
 
 
 

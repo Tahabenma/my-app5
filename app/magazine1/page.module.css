@@ -1,0 +1,40 @@
+.text {
+    text-align: center;
+    font-family: 'Gelasio', serif;
+    display: flex;
+    font-size: 2.5vw;
+    padding: 8%;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.cube {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tailles {
+    max-width: 33%;
+    display: flex;
+    justify-content: center;
+    gap: 1, 5vw;
+}
+
+
+
+.tailles img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    padding-bottom: 1.5rem;
+}
+
+.titre {
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 8vw;
+    padding-top: 6rem;
+}
