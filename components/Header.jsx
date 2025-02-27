@@ -20,6 +20,12 @@ export default function Header() {
       <  Link href="/scans" className={styles.menuItem}>
         SCANS
       </Link>
+      <div className={styles.separator}>
+        |
+      </div>
+      <  Link href="/contact" className={styles.menuItem}>
+        CONTACTS
+      </Link>
     </div>
 
 
