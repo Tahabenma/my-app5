@@ -5,6 +5,14 @@ import iss from '@/public/iss.webp';
 import sex from '@/public/sex.webp';
 
 
+/**
+ * @type {import(next).Metadata}
+ * 
+ */
+export const metadata = {
+   title: "Magazine Scans",
+   description: "website presenting different scans from multiple vintage magazines",
+};
 
 
 export default function Scans() {

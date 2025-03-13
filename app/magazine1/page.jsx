@@ -4,6 +4,14 @@ import maison1 from '@/public/maison1.webp'
 import maison2 from '@/public/maison2.webp'
 import maison3 from '@/public/maison4.webp'
 
+/**
+ * @type {import(next).Metadata}
+ * 
+ */
+export const metadata = {
+    title: "Maison Margiela | Magazine Scans",
+    description: "website presenting different scans from multiple vintage magazines",
+};
 
 export default function Scans() {
     return <div>

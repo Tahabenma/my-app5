@@ -2,6 +2,18 @@ import styles from '@/app/seasons/page.module.css'
 import Image from 'next/image'
 import ricardo from '@/public/ricardo.webp'
 
+/**
+ * @type {import(next).Metadata}
+ * 
+ */
+export const metadata = {
+  title: "Seasons | Magazine Scans",
+  description: "website presenting different scans from multiple vintage magazines",
+};
+
+
+
+
 export default function Scans() {
   return <div className={styles.main}>
 

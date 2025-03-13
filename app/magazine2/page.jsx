@@ -4,6 +4,16 @@ import rei1 from '@/public/rei1.webp'
 import rei2 from '@/public/rei2.webp'
 import rei3 from '@/public/rei3.webp'
 
+/**
+ * @type {import(next).Metadata}
+ * 
+ */
+export const metadata = {
+  title: "Rei Kawakubo | Magazine Scans",
+  description: "website presenting different scans from multiple vintage magazines",
+};
+
+
 
 export default function Scans() {
   return <div>

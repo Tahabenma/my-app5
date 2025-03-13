@@ -10,7 +10,7 @@ export async function POST(request) {
     console.log(data)
 
     return NextResponse.json(
-        { message: 'recu avec succes' },
+    { message: 'recu avec succes' },
     { status: 200 }
     );
 }

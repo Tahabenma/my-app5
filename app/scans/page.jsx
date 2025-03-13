@@ -4,6 +4,20 @@ import reihp from '@/public/reihp.webp'
 import Link from 'next/link'
 import maisonhp from '@/public/maisonhp.webp'
 
+
+
+/**
+ * @type {import(next).Metadata}
+ * 
+ */
+export const metadata = {
+      title: "Scans | Scans",
+      description: "website presenting different scans from multiple vintage magazines",
+  };
+  
+
+
+
 export default function Scans() {
       return <div className={styles.page}>
             <p>
