@@ -45,7 +45,7 @@ export async function contactServeur(formData) {
         return [erreur, newFormState];
     }
 
-    redirect('/');
+    console.log("formulaire envoyer");
 
     return [false, newFormState]; 
 }

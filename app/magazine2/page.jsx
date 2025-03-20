@@ -10,7 +10,8 @@ import rei3 from '@/public/rei3.webp'
  */
 export const metadata = {
   title: "Rei Kawakubo | Magazine Scans",
-  description: "website presenting different scans from multiple vintage magazines",
+    description: "High-quality scans of Vogue's April 1995 issue,Maison Margiela, featuring iconic fashion editorials and vintage advertisements.",
+ 
 };
 
 

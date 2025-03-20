@@ -8,7 +8,7 @@ import ricardo from '@/public/ricardo.webp'
  */
 export const metadata = {
   title: "Seasons | Magazine Scans",
-  description: "website presenting different scans from multiple vintage magazines",
+  description: "Website showcasing various scans from vintage magazines featuring Rick Owens' iconic fashion collections.",
 };
 
 

@@ -2,8 +2,8 @@
 
 import { useActionState } from 'react';
 import styles from './Contact.module.css';
-import { validateform } from '@/app/validations/login';
-import { contactServeur } from '@/app/actions/send';
+import { validateform } from '@/validations/login';
+import { contactServeur } from '@/actions/send';
 
 
 export default function FormLogin() {

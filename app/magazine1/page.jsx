@@ -10,7 +10,7 @@ import maison3 from '@/public/maison4.webp'
  */
 export const metadata = {
     title: "Maison Margiela | Magazine Scans",
-    description: "website presenting different scans from multiple vintage magazines",
+    description: "High-quality scans of Vogue's April 1995 issue,Maison Margiela, featuring iconic fashion editorials and vintage advertisements.",
 };
 
 export default function Scans() {
